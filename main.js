@@ -20,7 +20,7 @@ console.log(exercise2.test(ex2));//
 // Exercise 03
 // Using a regex, get an array of numbers that are contained in the string (removing any symbols)
 
-let exercise3 = /\d[0-9]+/g;
+let exercise3 = /\d+/g;
 console.log(ex3.match(exercise3));
 
 
@@ -30,10 +30,13 @@ console.log(ex3.match(exercise3));
 // Using a regex, find out the name contained in the string (after the semicolon :)
 
 
-
-
+let exercise4 = /\:\s*\w+/ig;
+console.log(ex4.match(exercise4));
 
 // Exercise 05
 // Using a regex, find the number of contractions used in the string.
 
 
+
+let exercise5 = /\w+[,']+\w+/ig;
+console.log(ex5.match(exercise5));
