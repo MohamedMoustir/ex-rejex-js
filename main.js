@@ -20,6 +20,8 @@ console.log(exercise2.test(ex2));//
 // Exercise 03
 // Using a regex, get an array of numbers that are contained in the string (removing any symbols)
 
+let exercise3 = /\d[0-9]+/g;
+console.log(ex3.match(exercise3));
 
 
 
