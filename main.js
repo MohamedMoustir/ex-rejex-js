@@ -7,16 +7,14 @@ const ex5 = `Did you find any droids? No, sir. If there were any on board, they 
 // Exercise 01
 // Using a regex, get an array of the grade values e.g. Grade 1, Grade 2 ...
 let exercise1 = /\d{1,}\w[a-zA-Z]+/ig;
-console.log(ex1.match(exercise1));
-
-
+console.log(ex1.match(exercise1));// ['1Grade', '2Grade', '3Grade', '4Grade']
 
 
 // Exercise 02
 // Using a regex, determine whether the string contains the substring 'agenda' or 'age'
 
-
-
+let exercise2 = /agenda$/;
+console.log(exercise2.test(ex2));//
 
 
 // Exercise 03
